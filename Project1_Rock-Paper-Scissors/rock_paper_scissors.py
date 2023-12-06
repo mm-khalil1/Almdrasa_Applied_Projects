@@ -12,22 +12,36 @@
 import random
 
 def user_choice():
-    print("Type 'r' for rock, 'p' for paper or 's' for scissor")
+    """
+    Function to get user input for Rock, Paper, Scissors game.
+
+    Returns:
+    str: User's choice ('r', 'p', 's', or 'e' to exit).
+    """
+    print("Type 'r' for rock, 'p' for paper, or 's' for scissor")
     return input("Otherwise type 'e' to exit: ")
 
+# Main game loop
 print("Welcome to Rock, Paper, Scissors game")
 while True:
+    # Get user's choice
     user = user_choice()
+
+    # Check for exit condition
     if user == 'e':
         break
+
+    # Validate user input
     if user not in ['r', 'p', 's']:
-        print("Your input is invalid! ", end = "")
+        print("Your input is invalid! ", end="")
         continue
+
+    # Generate computer's choice
     pc = random.choice(['r', 'p', 's'])
 
+    # Determine the winner and print the result
     if user == pc:
         print(f"####      It's a tie! PC also chose {pc}    ####\n")
-        continue
     elif (user == 'p' and pc == 'r') or (user == 'r' and pc == 's') or (user == 's' and pc == 'p'):
         print(f"####      You won! PC chose {pc}            ####\n")
     else:
