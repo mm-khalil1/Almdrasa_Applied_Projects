@@ -11,11 +11,13 @@
 
 import random
 
-print("Welcome to Rock paper scissors game")
-game = 1
-while (game != 'e'):
-    print("Type 'r' for rock, 'p' for paper or 's' for scissor") 
-    user = input("Otherwise type 'e' to exit: ")
+def user_choice():
+    print("Type 'r' for rock, 'p' for paper or 's' for scissor")
+    return input("Otherwise type 'e' to exit: ")
+
+print("Welcome to Rock, Paper, Scissors game")
+while True:
+    user = user_choice()
     if user == 'e':
         break
     if user not in ['r', 'p', 's']:
@@ -24,9 +26,9 @@ while (game != 'e'):
     pc = random.choice(['r', 'p', 's'])
 
     if user == pc:
-        print("It's a tie! PC choose also " + pc + '\n')
+        print(f"####      It's a tie! PC also chose {pc}    ####\n")
         continue
-    if (user == 'p' and pc == 'r') or (user == 'r' and pc == 's') or (user == 's' and pc == 'p'):
-        print("You won! PC chose " + pc + '\n')
+    elif (user == 'p' and pc == 'r') or (user == 'r' and pc == 's') or (user == 's' and pc == 'p'):
+        print(f"####      You won! PC chose {pc}            ####\n")
     else:
-        print("You lost. PC chose " + pc + '\n')
+        print(f"####      You lost. PC chose {pc}           ####\n")
