@@ -14,15 +14,19 @@ import random
 print("Welcome to Rock paper scissors game")
 game = 1
 while (game != 'e'):
-    user = input("Type 'r' for rock, 'p' for paper or 's' for scissor. Or 'e' to end the game: ")
+    print("Type 'r' for rock, 'p' for paper or 's' for scissor") 
+    user = input("Otherwise type 'e' to exit: ")
+    if user == 'e':
+        break
     if user not in ['r', 'p', 's']:
-        user = input("Your input is invalid. Type r, p or s: ")
+        print("Your input is invalid! ", end = "")
+        continue
     pc = random.choice(['r', 'p', 's'])
 
     if user == pc:
-        print("It's a tie! PC choose also " + pc)
+        print("It's a tie! PC choose also " + pc + '\n')
         continue
     if (user == 'p' and pc == 'r') or (user == 'r' and pc == 's') or (user == 's' and pc == 'p'):
-        print("You won! PC chose " + pc)
+        print("You won! PC chose " + pc + '\n')
     else:
-        print("You lose. PC chose " + pc)
+        print("You lost. PC chose " + pc + '\n')
