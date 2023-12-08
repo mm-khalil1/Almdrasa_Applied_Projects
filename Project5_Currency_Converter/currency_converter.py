@@ -22,11 +22,15 @@ headers= {
   "apikey": "bBGXiYkmFq1sFHvfY3JQQKc4OBb29Dwc"
 }
 
-response = requests.request("GET", url, headers=headers)
+try:
+    response = requests.request("GET", url, headers=headers)
 
-status_code = response.status_code
-if status_code == 200:
-    result = response.json()['result']
-    print(f"{amount} {base} = {result} {target}")
-else:
-    print(f"Error: {status_code}. Unable to fetch conversion rates.")
+    status_code = response.status_code
+    if status_code == 200:
+        result = response.json()['result']
+        print(f"{amount} {base} = {result} {target}")
+    else:
+        print(f"Error: {status_code}. Unable to fetch conversion rates.")
+
+except requests.exceptions.RequestException as e:
+    print(f"Error: {e}. Unable to make the API request.")
