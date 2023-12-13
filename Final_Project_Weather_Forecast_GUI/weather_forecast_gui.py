@@ -11,7 +11,7 @@ def get_weather():
 
     # Check if the city name is provided
     if not city:
-        messagebox.showinfo("Error", "You haven't typed any city.")
+        messagebox.showinfo("Error", "Please enter a city.")
         return
 
     # OpenWeatherMap API endpoint and parameters
