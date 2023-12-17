@@ -1,3 +1,19 @@
+"""
+Weather Application using OpenWeatherMap API
+
+This simple Tkinter-based weather application allows users 
+to retrieve real-time weather information for a specified city. 
+The application utilizes the OpenWeatherMap API to fetch data 
+such as temperature, humidity, wind speed, and pressure.
+
+Instructions:
+1. Enter the desired city in the provided input field.
+2. Click the "Search" button to fetch and display the current weather information.
+
+Author: Mahmoud Khalil
+Date: 13-12-2023
+"""
+
 # Import necessary libraries
 from tkinter import messagebox
 from tkinter import *
