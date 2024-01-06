@@ -14,7 +14,7 @@ This script extracts book information from 'https://books.toscrape.com'. Utilizi
 
 Add tasks, view existing ones, remove them, and exit the program through a user-friendly command-line interface.
 
-### 4. [Guessing the Number Game](Project4_Guess_the_Number/guess_the_game.py) 🔢🎮
+### 4. [Guessing the Number Game](Project4_Guess_the_Number/guess_the_number.py) 🔢🎮
 
 Challenge yourself with this simple console-based guessing game. The computer randomly chooses a number, and the user attempts to guess it. The game provides feedback on whether the guessed number is higher or lower. The fun continues until the user guesses the correct number or chooses to exit.
 
