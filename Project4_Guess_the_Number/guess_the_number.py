@@ -1,5 +1,5 @@
 """
-Guesse the Number
+Guess the Number
 This simple console-based game allows the user to guess a randomly chosen number by the computer.
 The user is prompted to input a number between 1 and 10, and the game provides feedback on whether the PC's
 number is higher or lower. The game continues until the user guesses the correct number or chooses to exit.
