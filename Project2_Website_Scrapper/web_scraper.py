@@ -1,10 +1,12 @@
-# Code to scraping books.toscrape.com website
+"""
+Book Scraper
+This script scrapes book information from the website 'https://books.toscrape.com'. 
+It retrieves the titles and star ratings of books listed on the site 
+using BeautifulSoup and displays the results.
 
-## Pseudo code:
-# get website
-# get requirements: title and rating
-# title can be found in h3 under li class after "title="
-# rating can be found in p class under li class after "star-rating "
+Author: Mahmoud Khalil
+Date: 07-12-2023
+"""
 
 import requests
 from bs4 import BeautifulSoup

@@ -1,13 +1,13 @@
-# This is a python code to play rock, paper, scissors game between the user and PC.
+"""
+Rock, Paper, Scissors Game
+This script implements a simple Rock, Paper, Scissors game where the user competes against the computer.
+The user inputs their choice, and the computer generates a random choice. 
+The winner is determined, and the result is displayed in a stylized format.
 
-# Pseudo code:
-# start the game
-# user input choice 
-# PC random choice
-# compare user and pc choices
-# if tie -> repeat
-# else: user win if (user = p and PC = r) or (user = r and PC = s) or (user = s and PC = p)
-# else: PC win
+Author: Mahmoud Khalil
+Date: 06-12-2023
+"""
+
 
 import random
 
