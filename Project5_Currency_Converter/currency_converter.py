@@ -1,5 +1,5 @@
 """
-Currency Converter using an API
+Currency Converter
 This script takes user input for base and target currencies along with an amount,
 makes a request to a currency conversion API, and prints the converted amount.
 

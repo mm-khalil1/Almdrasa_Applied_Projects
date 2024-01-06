@@ -1,5 +1,5 @@
 """
-Weather Application using OpenWeatherMap API
+Weather Forecast
 
 This simple Tkinter-based weather application allows users 
 to retrieve real-time weather information for a specified city. 

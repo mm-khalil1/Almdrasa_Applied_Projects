@@ -1,5 +1,5 @@
 """
-Simple Text Editor using Tkinter
+Text Editor
 
 This program demonstrates a basic text editor implemented using the Tkinter GUI library in Python.
 It allows users to open, edit, and save text files. The main features include:

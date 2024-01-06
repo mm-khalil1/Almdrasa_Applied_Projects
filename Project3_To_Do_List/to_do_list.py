@@ -1,5 +1,5 @@
 """
-Task Manager Program
+To Do List
 
 This program allows users to manage tasks through a simple command-line interface.
 Users can add tasks, view existing tasks, remove tasks, and exit the program.

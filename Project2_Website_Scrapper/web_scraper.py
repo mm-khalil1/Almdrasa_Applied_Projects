@@ -1,5 +1,5 @@
 """
-Book Scraper
+Web Scraper
 This script scrapes book information from the website 'https://books.toscrape.com'. 
 It retrieves the titles and star ratings of books listed on the site 
 using BeautifulSoup and displays the results.
