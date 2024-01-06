@@ -1,3 +1,5 @@
+# created by ChatGPT
+
 import random
 
 def get_user_choice():
