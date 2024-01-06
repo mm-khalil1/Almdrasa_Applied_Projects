@@ -26,6 +26,6 @@ This script takes user input for base and target currencies, along with an amoun
 
 A basic text editor implemented using the Tkinter GUI library. Open, edit, and save text files through an intuitive interface.
 
-### Final Project: [Weather Forecast GUI](Final_Project_Weather_Forecast_GUI/weather_forecast.py) ☀️🌧️❄️
+### Final Project: [Weather Forecast GUI](Final_Project_Weather_Forecast_GUI/weather_forecast_gui.py) ☀️🌧️❄️
 
 This Tkinter-based weather application allows users to retrieve real-time weather information for a specified city. The application utilizes the OpenWeatherMap API to fetch data such as temperature, humidity, wind speed, and pressure. Users can enter the desired city, click the "Search" button, and get the latest weather details.
