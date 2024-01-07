@@ -22,7 +22,7 @@ Challenge yourself with this simple console-based guessing game. The computer ra
 
 This script takes user input for base and target currencies, along with an amount, and performs currency conversion using an API. The converted amount is then elegantly displayed.
 
-### 6. [Text Editor GUI](Project6_Text_Editer_GUI/text_editor_gui.py) 📝
+### 6. [Text Editor GUI](Project6_Text_Editor_GUI/text_editor_gui.py) 📝
 
 A basic text editor implemented using the Tkinter GUI library. Open, edit, and save text files through an intuitive interface.
 
